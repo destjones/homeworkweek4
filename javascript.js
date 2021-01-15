@@ -92,10 +92,10 @@ function question1() {
     a1.remove();
     a2.remove();
     countdown();
-    question.textContent = "Commonly used data types DO NOT include:";
+    question.textContent = "Name a visual programming language";
         
     a1 = document.createElement("BUTTON");
-    a1.innerHTML = "String";
+    a1.innerHTML = "Function";
     document.body.children[4].appendChild(a1);
     a1.addEventListener("click", function () {
         wrongcw();
@@ -104,7 +104,7 @@ function question1() {
     });
 
     a2 = document.createElement("BUTTON");
-    a2.innerHTML = "Boolean";
+    a2.innerHTML = "Command";
     document.body.children[4].appendChild(a2);
     a2.addEventListener("click", function () {
         wrongcw();
@@ -113,7 +113,7 @@ function question1() {
     });
 
     a3 = document.createElement("BUTTON");
-    a3.innerHTML = "Number";
+    a3.innerHTML = "Debugging";
     document.body.children[4].appendChild(a3);
     a3.addEventListener("click", function () {
         wrongcw();
@@ -122,7 +122,7 @@ function question1() {
     });
 
     a4 = document.createElement("BUTTON");
-    a4.innerHTML = "Float";
+    a4.innerHTML = "Scratch";
     document.body.children[4].appendChild(a4);
     a4.addEventListener("click", function () {
         correctcw();
@@ -138,10 +138,10 @@ function question2() {
     a2.remove();
     a3.remove();
     a4.remove();
-    question.textContent = "Using ___ statement is how you test for a specific condition.";
+    question.textContent = "What is a list of steps to finish a task?";
        
     a1 = document.createElement("BUTTON");
-    a1.innerHTML = "For";
+    a1.innerHTML = "Loop";
     document.body.children[4].appendChild(a1);
     a1.addEventListener("click", function () {
         wrongcw();
@@ -150,7 +150,7 @@ function question2() {
     });
  
     a2 = document.createElement("BUTTON");
-    a2.innerHTML = "If";
+    a2.innerHTML = "Algorithm";
     document.body.children[4].appendChild(a2);
     a2.addEventListener("click", function () {
         correctcw();
@@ -159,7 +159,7 @@ function question2() {
     });
 
     a3 = document.createElement("BUTTON");
-    a3.innerHTML = "Select";
+    a3.innerHTML = "Loop";
     document.body.children[4].appendChild(a3);
     a3.addEventListener("click", function () {
         wrongcw();
@@ -168,7 +168,7 @@ function question2() {
     });
 
     a4 = document.createElement("BUTTON");
-    a4.innerHTML = "Switch";
+    a4.innerHTML = "Event";
     document.body.children[4].appendChild(a4);
     a4.addEventListener("click", function () {
         wrongcw();
